@@ -1,0 +1,51 @@
+.uper-content{
+  width: 100%;
+  background-color: #272727ab;
+  height: 635px;
+}
+.start-conent{
+  margin: 0 auto
+}
+.text-dis > h2{
+  color: white;
+  font-size: 45px;
+}
+.text-dis > p{
+      font-size: 60px;
+  font-weight: bolder;
+  color: white;
+  letter-spacing: 15px;
+}
+ul{
+  text-align: center
+}
+ul li{
+  display: inline-block;
+  padding: 2px 5px;
+  font-size: 18px;
+  font-weight: bolder;
+  
+  margin: 6px 26px;
+  position: relative;
+  cursor: pointer;
+}
+ul li a{
+  color:white;
+}
+ul li a:hover{
+  text-decoration: none;
+  color: white
+}
+ul li:hover{
+  /* content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; */
+  border-bottom: 2px solid white;
+  transform: rotate(2deg) ;
+  transition: border-bottom .5s, transform .5s;
+}
+.content-homepage{
+  width: 100%;
+}
